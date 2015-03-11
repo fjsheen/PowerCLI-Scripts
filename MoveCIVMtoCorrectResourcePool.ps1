@@ -1,3 +1,17 @@
+##############################
+# Move vCD VMs to correct pools
+# Author: Jordan Sheen
+# Description: This script was written to automate moving 
+# several hundred VMs back to the correct resource pools.
+#
+# Usage:
+# ./movecivmtocorrectresourcepool.ps1
+#
+##############################
+
+
+
+
 Write-Host -foregroundcolor green "`r`n`r`nStarting CIVM Resource Pool Move..."
 #Check if connected to ycloud, if not, initiate connection
 if(!$global:defaultciservers){
